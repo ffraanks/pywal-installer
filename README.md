@@ -23,4 +23,5 @@ pip install --user pywal
 
 # Script install:
 ```
+wget -c "https://github.com/ffraanks/pywal-installer/raw/master/pywal" && chmod +x pywal && ./pywal
 ```
