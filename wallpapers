@@ -6,5 +6,6 @@
 
 clear
 mkdir $HOME/Wallpapers && clear
-cd $HOME/Wallpapers && wget -c "https://cdn-108.anonfiles.com/BfV3B3U6u3/fd5f3216-1636756013/Pack%20Wallpapers.tar.gz"
-tar -xzvf Pack\ Wallpapers.tar.gz
+cd $HOME/Wallpapers
+wget -c "https://cdn-127.anonfiles.com/BfV3B3U6u3/9deaf09b-1636758575/Pack%20Wallpapers.tar.gz"
+printf "Download concluído com sucesso!!!" && tar -xvf Pack\ Wallpapers.tar.gz
