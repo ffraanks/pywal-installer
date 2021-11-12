@@ -23,7 +23,7 @@ pip install --user pywal
 
 # OBS:
 ```
-Para você usar o Wallpaper random, você precisa editar o script random_pywal para o PATH dos seus Wallpapers, por padrão está em $HOME/Wallpapers
+Para você usar o Wallpaper random, você precisa baixar o script random_pywal e jogar no seu $HOME/.local/bin
 ```
 
 # Pack Wallapapers
@@ -38,5 +38,5 @@ wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/wallp
 
 # Script install and execute:
 ```
-wget -c "https://github.com/ffraanks/pywal-installer/raw/master/pywal" && chmod +x pywal && wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/random_pywal" && chmod +x random_pywal && ./pywal
+cd $HOME/.local/bin && wget -c "https://github.com/ffraanks/pywal-installer/raw/master/pywal" && chmod +x pywal && cd $HOME/.local/bin && wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/random_pywal" && chmod +x random_pywal && cd $HOME/.local/bin && ./pywal
 ```
