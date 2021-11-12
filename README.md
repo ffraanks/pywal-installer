@@ -29,10 +29,7 @@ Para você usar o Wallpaper random, você precisa baixar o script random_pywal e
 # Pack Wallapapers
 ```
 Caso você queira o meu Pack de wallpapers só copiar e executar o comando abaixo no seu terminal:
-```
 
-# Comando
-```
 wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/wallpapers" && chmod +x wallpapers && ./wallpapers
 ```
 
