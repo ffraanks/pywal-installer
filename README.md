@@ -26,7 +26,7 @@ pip install --user pywal
 Para você usar o Wallpaper random, você precisa baixar o script random_pywal e jogar no seu $HOME/.local/bin
 ```
 
-## Os Wallpapers foram escolhidos randomicamente, não tem vinculos com religião ou afins (Pelo menos espero que não) fui somente salvando o que fui achando bonito.
+## Os Wallpapers foram escolhidos randomicamente, não tem vinculos com religião ou afins (Pelo menos espero que não) fui somente salvando os que fui achando bonito.
 
 # Pack Wallapapers
 ```
