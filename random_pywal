@@ -1,5 +1,4 @@
 #!/bin/env bash
 
-my_array=(/home/frank/Wallpapers/*)
+my_array=($HOME/Wallpapers/*)
 wal -i ${my_array[$(( $RANDOM % ${#my_array[@]}))]}
-
