@@ -35,6 +35,12 @@ Caso você queira o meu Pack de wallpapers só copiar e executar o comando abaix
 wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/wallpapers" && chmod +x wallpapers && ./wallpapers
 ```
 
+# Baixar manualmente:
+```
+Você pode baixar o pack manualmente com esse link:
+https://anonfiles.com/BfV3B3U6u3/Pack_Wallpapers.tar_gz
+```
+
 # Script install and execute:
 ```
 cd $HOME/.local/bin && wget -c "https://github.com/ffraanks/pywal-installer/raw/master/pywal" && chmod +x pywal && cd $HOME/.local/bin && wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/random_pywal" && chmod +x random_pywal && cd $HOME/.local/bin && ./pywal
