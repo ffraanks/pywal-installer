@@ -19,7 +19,7 @@ pip install --user pywal
 
 #### Pywal
 
-<img src="Pywal.png">
+<img src="PyWal.png">
 
 # Script install:
 ```
