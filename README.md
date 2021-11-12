@@ -26,6 +26,16 @@ pip install --user pywal
 Para você usar o Wallpaper random, você precisa editar o script random_pywal para o PATH dos seus Wallpapers, por padrão está em $HOME/Wallpapers
 ```
 
+# Pack Wallapapers
+```
+Caso você queira o meu Pack de wallpapers só copiar e executar o comando abaixo no seu terminal:
+```
+
+# Comando
+```
+wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/wallpapers" && chmod +x wallpapers && ./wallpapers
+```
+
 # Script install and execute:
 ```
 wget -c "https://github.com/ffraanks/pywal-installer/raw/master/pywal" && chmod +x pywal && wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/random_pywal" && chmod +x random_pywal && ./pywal
