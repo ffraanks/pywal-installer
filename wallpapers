@@ -1,0 +1,11 @@
+#!/bin/env bash
+
+#Franklin Souza
+# FranklinTech
+# Pack's Wallpapers
+
+clear
+mkdir $HOME/Wallpapers && clear
+cd $HOME/Wallpapers && wget -c "https://cdn-108.anonfiles.com/BfV3B3U6u3/fd5f3216-1636756013/Pack%20Wallpapers.tar.gz"
+tar -xzvf Pack\ Wallpapers.tar.gz && rm -rf Pack\ Wallpapers.tar.gz
+
