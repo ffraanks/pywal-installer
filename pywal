@@ -18,10 +18,11 @@ while true ; do
   printf "Escolha uma das opções abaixo:\n\n"
   printf "[1] - Baixar Wallpaper (via wget)\n"
   printf "[2] - Definir Wallpaper (Pywal)\n"
-  printf "[3] - Renomear arquivo\n"
-  printf "[4] - Visualizar imagem\n"
-  printf "[5] - Definir palette no telegram\n"
-  printf "[6] - Remover wallpapers\n"
+  printf "[3] - Wallpaper random (Pywal)\n"
+  printf "[4] - Renomear arquivo\n"
+  printf "[5] - Visualizar imagem\n"
+  printf "[6] - Definir palette no telegram\n"
+  printf "[7] - Remover wallpapers\n"
   printf "\nPara sair pressione Ctrl+C \n\n"
   read SELECTION
 
@@ -40,8 +41,12 @@ while true ; do
     [[ -n "${array[@]}" ]] && wal -i "${array[@]}" && $HOME/.config/dunst/./launchdunst.sh && i3-msg restart
     read -p 'PRESS ENTER TO CONTINUE...' && continue
 
-
   elif [ $SELECTION == '3' ] || [ $SELECTION == '03' ] ; then
+    clear
+    random_pywal
+    read -p 'PRESS ENTER TO CONTINUE...' && continue
+
+  elif [ $SELECTION == '4' ] || [ $SELECTION == '04' ] ; then
      clear
     cd $DIR && ls
     printf "\nEscolha o arquivo que deseja renomear:\n\n"
@@ -51,18 +56,18 @@ while true ; do
     mv "$RENAME_FILE" "$FILE_RENAME"
     read -p 'PRESS ENTER TO CONTINUE...' && continue
   
-  elif [ $SELECTION == '4' ] || [ $SELECTION == '04' ] ; then
+  elif [ $SELECTION == '5' ] || [ $SELECTION == '05' ] ; then
     IFS=$'\n'
     mapfile -t array < <(find  ~/Wallpapers -regextype posix-egrep -regex '.*\.(jpg|png)' | \
     fzf-tmux --query="$1" --multi --select-1 --exit-0)
     [[ -n "${array[@]}" ]] && viewnior "${array[@]}"
   
-  elif [ $SELECTION == '5' ] || [ $SELECTION == '06' ] ; then
+  elif [ $SELECTION == '6' ] || [ $SELECTION == '06' ] ; then
     clear
     $HOME/.telegram-palette-gen/telegram-palette-gen --wal && sleep 2
     read -p 'PRESS ENTER TO CONTINUE...' && continue
 
-  elif [ $SELECTION == '6' ] || [ $SELECTION == '06' ] ; then
+  elif [ $SELECTION == '7' ] || [ $SELECTION == '07' ] ; then
     clear
     printf "Escolha sua opção:\n\n"
     printf "[1] - Apagar wallpapers (Pode mais de um)\n"
