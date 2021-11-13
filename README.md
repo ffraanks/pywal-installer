@@ -31,12 +31,8 @@ pip install --user pywal
 # Download Pack Wallapapers (Script)
 
 ```
-wget -c "https://github.com/ffraanks/pywal-installer/raw/master/wallpapers"
+wget -c "https://github.com/ffraanks/pywal-installer/raw/master/wallpapers" && chmod +x wallpapers && ./wallpapers
 ```
-
-# Baixar manualmente:
-
-[Pack Wallpapers](https://files.catbox.moe/zeqv6e.gz)
 
 # Script install and execute:
 ```
