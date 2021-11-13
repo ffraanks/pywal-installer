@@ -45,8 +45,7 @@ while true ; do
   elif [ $SELECTION == '3' ] || [ $SELECTION == '03' ] ; then
     clear
     my_array=($HOME/Wallpapers/*)
-    wal -i ${my_array[$(( $RANDOM % ${#my_array[@]}))]}
-    $HOME/.config/dunst/./launchdunst.sh 
+    wal -i ${my_array[$(( $RANDOM % ${#my_array[@]}))]} && $HOME/.config/dunst/./launchdunst.sh && i3-msg restart
     read -p 'PRESS ENTER TO CONTINUE...' && continue
 
   elif [ $SELECTION == '4' ] || [ $SELECTION == '04' ] ; then
