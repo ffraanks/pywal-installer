@@ -5,7 +5,13 @@
 # Pack's Wallpapers
 
 clear
+
+cat << EOF
+O site que está hospedado o arquivo as vezes sofre de lentidão, mas está tudo ok com o download o nome do arquivo fica diferente mas é o pack de Wallpapers, não se esqueça de baixar o wget no seu sistema, obrigado pela preferencia do script, o caminho do Pack fica em: $HOME/Wallpapers
+
+EOF
+read -p 'PRESS ENTER TO CONTINUE...'
 mkdir $HOME/Wallpapers && clear
-cd $HOME/Wallpapers
-wget -c "https://cdn-127.anonfiles.com/BfV3B3U6u3/9deaf09b-1636758575/Pack%20Wallpapers.tar.gz"
-printf "Download concluído com sucesso!!!" && tar -xvf Pack\ Wallpapers.tar.gz
+cd $HOME/Wallpapers && wget -c "https://files.catbox.moe/zeqv6e.gz"
+printf "Download concluído com sucesso!!!" && tar -xvf zeqv6e.gz && cd Pack1\ Wallpapers/ && mv * $HOME/Wallpapers && cd $HOME/Wallpapers && rm -rf Pack1\ Wallpapers/
+read -p 'FINALIZADO PRESS ENTER TO CONTINUE...' && clear && exit 0
