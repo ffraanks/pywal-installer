@@ -28,18 +28,13 @@ Para você usar o Wallpaper random, você precisa baixar o script random_pywal e
 
 ## Os Wallpapers foram escolhidos randomicamente, não tem vinculos com religião ou afins (Pelo menos espero que não) fui somente salvando os que fui achando bonito.
 
-# Pack Wallapapers
-```
-Caso você queira o meu Pack de wallpapers só copiar e executar o comando abaixo no seu terminal:
+## Pack Wallapapers
 
-wget -c "https://raw.githubusercontent.com/ffraanks/pywal-installer/master/wallpapers" && chmod +x wallpapers && ./wallpapers
-```
+# O script para automatizar o download está sendo analisado!!!
 
 # Baixar manualmente:
-```
-Você pode baixar o pack manualmente com esse link:
-https://anonfiles.com/BfV3B3U6u3/Pack_Wallpapers.tar_gz
-```
+
+[Pack Wallpapers](https://www.4shared.com/get/eaD0DSBuea/Pack_Wallpaperstar.html)
 
 # Script install and execute:
 ```
