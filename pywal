@@ -15,7 +15,8 @@ while true ; do
  ╚═╝        ╚═╝    ╚══╝╚══╝ ╚═╝  ╚═╝╚══════╝
                                            \n\n"
 
-  printf "Escolha uma das opções abaixo:\n\n"
+  printf "Wallpaper definido: " && sed -n 3p ~/.cache/wal/colors.sh
+  printf "\n\nEscolha uma das opções abaixo:\n\n"
   printf "[1] - Baixar Wallpaper (via wget)\n"
   printf "[2] - Definir Wallpaper (Pywal)\n"
   printf "[3] - Wallpaper random (Pywal)\n"
