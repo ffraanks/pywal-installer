@@ -6,6 +6,7 @@ Esse projeto eu criei afim de me ajudar a personalizar meu Linux, esse projeto v
 - [Discord](https://discord.com/channels/FraankTech#0272)
 
 # Deps:
+- [wget](https://www.gnu.org/software/wget/)
 - [fzf](https://github.com/junegunn/fzf)
 - [pywal](https://github.com/dylanaraps/pywal)
 - [Telegram-gen pywal](https://github.com/agnipau/telegram-palette-gen)
