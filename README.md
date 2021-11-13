@@ -1,5 +1,9 @@
-# Pywal Installer
-Script baseado no [pywal](https://github.com/dylanaraps/pywal)
+# Pywal Installer:
+Esse projeto eu criei afim de me ajudar a personalizar meu Linux, esse projeto vou escrito em cima do projeto original [pywal](https://github.com/dylanaraps/pywal) e também na base do uso do [i3wm](https://i3wm.org/) na qual WM eu utilizo, caso queiram modificar para seu gosto fique a vontade o projeto é livre
+
+# Contato:
+- [Telegram](https://t.me/FranklinTech)
+- [Discord](https://discord.com/FraankTech#0272)
 
 # Deps:
 - [fzf](https://github.com/junegunn/fzf)
@@ -17,7 +21,7 @@ Pip:
 pip install --user pywal
 ```
 
-#### Pywal
+#### Pywal:
 
 <img src="Pywal_Installer.png">
 
