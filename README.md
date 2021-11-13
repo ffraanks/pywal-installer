@@ -28,9 +28,11 @@ pip install --user pywal
 
 ## Os Wallpapers foram escolhidos randomicamente, não tem vinculos com religião ou afins (Pelo menos espero que não) fui somente salvando os que fui achando bonito.
 
-## Pack Wallapapers
+# Download Pack Wallapapers (Script)
 
-# O script para automatizar o download está sendo analisado!!!
+```
+wget -c "https://github.com/ffraanks/pywal-installer/raw/master/wallpapers"
+```
 
 # Baixar manualmente:
 
