@@ -1,5 +1,5 @@
 # Pywal Installer:
-Esse projeto eu criei afim de me ajudar a personalizar meu Linux, esse projeto vou escrito em cima do projeto original [pywal](https://github.com/dylanaraps/pywal) e também na base do uso do [i3wm](https://i3wm.org/) na qual WM eu utilizo, caso queiram modificar para seu gosto fique a vontade o projeto é livre
+Esse projeto eu criei afim de me ajudar a personalizar meu Linux, esse projeto foi escrito em cima do projeto original [pywal](https://github.com/dylanaraps/pywal) e também na base do uso do [i3wm](https://i3wm.org/) na qual WM eu utilizo, caso queiram modificar para seu gosto fique a vontade o projeto é livre
 
 # Contato:
 - [Telegram](https://t.me/FranklinTech)
