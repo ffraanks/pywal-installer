@@ -3,7 +3,7 @@ Esse projeto eu criei afim de me ajudar a personalizar meu Linux, esse projeto v
 
 # Contato:
 - [Telegram](https://t.me/FranklinTech)
-- [Discord](https://discord.com/FraankTech#0272)
+- [Discord](https://discord.com/channels/FraankTech#0272)
 
 # Deps:
 - [fzf](https://github.com/junegunn/fzf)
