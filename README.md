@@ -19,7 +19,7 @@ pip install --user pywal
 
 #### Pywal
 
-<img src="PyWal.png">
+<img src="Pywal_Installer.png">
 
 ## Os Wallpapers foram escolhidos randomicamente, não tem vinculos com religião ou afins (Pelo menos espero que não) fui somente salvando os que fui achando bonito.
 
