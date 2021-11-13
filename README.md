@@ -33,7 +33,7 @@ pip install --user pywal
 
 # Baixar manualmente:
 
-[Pack Wallpapers](https://www.4shared.com/get/eaD0DSBuea/Pack_Wallpaperstar.html)
+[Pack Wallpapers](https://files.catbox.moe/zeqv6e.gz)
 
 # Script install and execute:
 ```
