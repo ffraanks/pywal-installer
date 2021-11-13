@@ -28,6 +28,10 @@ pip install --user pywal
 
 ## Os Wallpapers foram escolhidos randomicamente, não tem vinculos com religião ou afins (Pelo menos espero que não) fui somente salvando os que fui achando bonito.
 
+# Download Pack Wallpapers Manualmente (Usando esse modo tem que editar o script do pywal para o PATH dos Wallpapers)
+
+[Pack Wallpaper](https://files.catbox.moe/zeqv6e.gz)
+
 # Download Pack Wallapapers (Script)
 
 ```
