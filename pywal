@@ -2,6 +2,12 @@
 # Username: Franklin Souza
 # Telegram: @FranklinTech
 
+clear
+
+# Packages
+[ ! `command -v wget` ] && echo "wget não instalado, por favor faça a instalação!!!" && exit 1
+[ ! `command -v fzf` ] && echo "fzf não instalado, por favor faça a instalação!!!" && exit 1
+
 while true ; do
   mkdir $HOME/Wallpapers
   DIR="$HOME/Wallpapers"
