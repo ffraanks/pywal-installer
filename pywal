@@ -68,7 +68,7 @@ while true ; do
     IFS=$'\n'
     mapfile -t array < <(find  ~/Wallpapers -regextype posix-egrep -regex '.*\.(jpg|png)' | \
     fzf-tmux --query="$1" --multi --select-1 --exit-0)
-    [[ -n "${array[@]}" ]] && viewnior "${array[@]}"
+    [[ -n "${array[@]}" ]] && feh "${array[@]}"
   
   elif [ $SELECTION == '6' ] || [ $SELECTION == '06' ] ; then
     clear
